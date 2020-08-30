@@ -1,0 +1,54 @@
+* {
+    font-size: 16px;
+    background-color: #FBFFED;
+    font-family: 'Caveat Brush', cursive;
+    color: #21201E;
+}
+
+body {
+    background-color: #FBFFED;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+    color: #21201E;
+}
+
+#main-content #item-content,
+#main-content #item-content .menu-item-title, 
+#main-content #item-content .menu-item-details  {
+    background-color: #fff1ed;
+    font-size: 1.2em;
+}
+.navbar-header {
+ border-bottom: 2px solid #21201e;   
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #21201E;
+}
+#bs-example-navbar-collapse-1 {
+    height: 100%;
+}
+#bs-example-navbar-collapse-1 {
+    border-bottom: 2px solid #21201E;
+}
+
+#nav-list a {
+    color: #21201E;
+    font-size: 1.5em;
+    border-bottom: 2px solid #21201e;
+    height: 100%;
+    width: 100%;
+}
+#nav-list a.last-child {
+ border-bottom: none;
+}
+
+@media(min-width:768){
+    .navbar-header {
+        border-bottom: none;   
+       }
+}
+
+

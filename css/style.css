@@ -3,10 +3,17 @@
     background-color: #FBFFED;
     font-family: 'Caveat Brush', cursive;
     color: #21201E;
+    margin: 0;
 }
 
 body {
     background-color: #FBFFED;
+    margin: 0;
+}
+
+.navbar .navbar-header {
+    background-color: #fff1ed;
+    border-bottom: 2px solid #21201E;
 }
 
 .navbar .navbar-brand {
@@ -21,34 +28,42 @@ body {
     background-color: #fff1ed;
     font-size: 1.2em;
 }
-.navbar-header {
- border-bottom: 2px solid #21201e;   
-}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid #21201E;
 }
+
 #bs-example-navbar-collapse-1 {
     height: 100%;
-}
-#bs-example-navbar-collapse-1 {
+    background-color: #fff1ed;
+    margin-left: -16px;
+    margin-right: -16px;
     border-bottom: 2px solid #21201E;
 }
 
 #nav-list a {
+    background-color: #fff1ed;
     color: #21201E;
     font-size: 1.5em;
     border-bottom: 2px solid #21201e;
-    height: 100%;
-    width: 100%;
 }
 #nav-list a.last-child {
  border-bottom: none;
 }
-
-@media(min-width:768){
-    .navbar-header {
-        border-bottom: none;   
-       }
+@media(max-width:767px){
+    #bs-example-navbar-collapse-1 {
+        background-color: #eeccc3;
+        height: 100%;
+        margin-top: -2px;
+        border-top: 2px solid #21201e;
+    }
+    #nav-list a {
+        background-color: #eeccc3;
+    }
 }
-
+@media(min-width:768px){
+    .navbar .navbar-header{
+        border-bottom: none;
+    }
+}
 
